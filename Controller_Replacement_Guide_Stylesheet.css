@@ -1,0 +1,6 @@
+.notice {
+    background-color: #f8d7da; /* Set the background color */
+    color: #721c24; /* Set the text color */
+    padding: 15px; /* Set the padding around the notice */
+    border: 1px solid #f5c6cb; /* Add a border */
+}
