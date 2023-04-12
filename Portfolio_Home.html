@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Technical Writing Portfolio</title>
+  <link rel="stylesheet" href="Portfolio_Style.css"> <!-- Link to the external CSS file -->
+  <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</head>
+<body>
+  <div class="container">
+    <h1>My Technical Writing Portfolio</h1>
+    <h2>Electric Bike Troubleshooting and Maintenance Guides</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec arcu ut odio efficitur fermentum in eget quam.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of Project 2. Quisque a tortor et justo tristique tristique. Ut mollis tellus et lacus dictum, ac congue velit varius.</p>
+    </div>
+    <div class="project">
+      <h3>Project 3</h3>
+      <p>Description of Project 3. Praesent feugiat rhoncus est, non blandit dui iaculis in. Etiam vehicula risus et vestibulum tempus.</p>
+    </div>
+    <h2>Contact</h2>
+    <p>If you are interested in my work or have any questions, please feel free to contact me at:</p>
+    <p>Email: [Your Email Address]</p>
+    <p>Phone: [Your Phone Number]</p>
+    <h2>Menu</h2>
+    <div class="dropdown">
+      <button class="dropbtn" id="dropdownBtn">Dropdown</button>
+      <div class="dropdown-content" id="dropdownContent">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+  <script>
+    // JavaScript code to handle the dropdown menu
+
+    // Get the dropdown button and content elements
+    var dropdownBtn = document.getElementById("dropdownBtn");
+    var dropdownContent = document.getElementById("dropdownContent");
+
+    // Add event listener for click event on dropdown button
+    dropdownBtn.addEventListener("click", function() {
+      // Toggle the 'active' class on the dropdown content
+      dropdownContent.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
